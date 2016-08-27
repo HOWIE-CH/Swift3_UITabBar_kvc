@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="G0m-h2-m5t" customClass="HomeTableHeaderView" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="241"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DL6-3r-PIz" customClass="DIYPageImgView">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="N5U-YT-m9i"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Okb-qJ-akF">
+                    <frame key="frameInset" minY="150" width="375" height="75"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obT-Rl-e48" userLabel="抽奖" customClass="IconButton" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+                            <frame key="frameInset" width="94" height="75"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPJ-kF-SqH" userLabel="秒杀" customClass="IconButton" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+                            <frame key="frameInset" minX="94" width="94" height="75"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L09-Oq-2Yy" userLabel="抢红包" customClass="IconButton" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+                            <frame key="frameInset" minX="188" width="93" height="75"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1l-Ul-Yxo" userLabel="蜂抱团" customClass="IconButton" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+                            <frame key="frameInset" minX="281" width="94" height="75"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="rPJ-kF-SqH" firstAttribute="width" secondItem="obT-Rl-e48" secondAttribute="width" id="0pa-fE-eqK"/>
+                        <constraint firstItem="n1l-Ul-Yxo" firstAttribute="leading" secondItem="L09-Oq-2Yy" secondAttribute="trailing" id="D1e-dm-4JP"/>
+                        <constraint firstItem="L09-Oq-2Yy" firstAttribute="top" secondItem="Okb-qJ-akF" secondAttribute="top" id="K1I-cm-xKk"/>
+                        <constraint firstAttribute="bottom" secondItem="L09-Oq-2Yy" secondAttribute="bottom" id="QYi-IE-bG5"/>
+                        <constraint firstItem="n1l-Ul-Yxo" firstAttribute="height" secondItem="obT-Rl-e48" secondAttribute="height" id="Rqz-9I-S8N"/>
+                        <constraint firstItem="obT-Rl-e48" firstAttribute="leading" secondItem="Okb-qJ-akF" secondAttribute="leading" id="SgO-3U-0Iu"/>
+                        <constraint firstItem="n1l-Ul-Yxo" firstAttribute="top" secondItem="Okb-qJ-akF" secondAttribute="top" id="U6J-1n-Moz"/>
+                        <constraint firstAttribute="trailing" secondItem="n1l-Ul-Yxo" secondAttribute="trailing" id="XNv-rb-WRc"/>
+                        <constraint firstItem="L09-Oq-2Yy" firstAttribute="width" secondItem="obT-Rl-e48" secondAttribute="width" id="ZoG-F2-Lgd"/>
+                        <constraint firstItem="rPJ-kF-SqH" firstAttribute="top" secondItem="Okb-qJ-akF" secondAttribute="top" id="fhH-sz-1lS"/>
+                        <constraint firstItem="rPJ-kF-SqH" firstAttribute="height" secondItem="obT-Rl-e48" secondAttribute="height" id="gyv-sA-NM9"/>
+                        <constraint firstItem="L09-Oq-2Yy" firstAttribute="height" secondItem="obT-Rl-e48" secondAttribute="height" id="jmM-VR-STY"/>
+                        <constraint firstItem="obT-Rl-e48" firstAttribute="top" secondItem="Okb-qJ-akF" secondAttribute="top" id="o3o-Ea-4pK"/>
+                        <constraint firstAttribute="bottom" secondItem="rPJ-kF-SqH" secondAttribute="bottom" id="oyj-29-NI3"/>
+                        <constraint firstItem="n1l-Ul-Yxo" firstAttribute="width" secondItem="obT-Rl-e48" secondAttribute="width" id="qRg-Dr-kaO"/>
+                        <constraint firstAttribute="bottom" secondItem="obT-Rl-e48" secondAttribute="bottom" id="tMa-h3-o8t"/>
+                        <constraint firstItem="L09-Oq-2Yy" firstAttribute="leading" secondItem="rPJ-kF-SqH" secondAttribute="trailing" id="umm-fm-HAd"/>
+                        <constraint firstAttribute="bottom" secondItem="n1l-Ul-Yxo" secondAttribute="bottom" id="xyh-Dd-Kwd"/>
+                        <constraint firstItem="rPJ-kF-SqH" firstAttribute="leading" secondItem="obT-Rl-e48" secondAttribute="trailing" id="zfI-7d-UJ3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Okb-qJ-akF" firstAttribute="leading" secondItem="G0m-h2-m5t" secondAttribute="leading" id="2H6-7p-Mm4"/>
+                <constraint firstAttribute="trailing" secondItem="DL6-3r-PIz" secondAttribute="trailing" id="EGz-yC-H3H"/>
+                <constraint firstAttribute="bottom" secondItem="Okb-qJ-akF" secondAttribute="bottom" constant="5" id="HNe-Zs-XGh"/>
+                <constraint firstItem="Okb-qJ-akF" firstAttribute="top" secondItem="DL6-3r-PIz" secondAttribute="bottom" constant="5" id="HbQ-8V-Q8h"/>
+                <constraint firstItem="DL6-3r-PIz" firstAttribute="top" secondItem="G0m-h2-m5t" secondAttribute="top" id="MMM-uP-Wtq"/>
+                <constraint firstAttribute="trailing" secondItem="Okb-qJ-akF" secondAttribute="trailing" id="UEM-GY-SSV"/>
+                <constraint firstItem="DL6-3r-PIz" firstAttribute="leading" secondItem="G0m-h2-m5t" secondAttribute="leading" id="hvD-Iz-eU1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="firstButton" destination="obT-Rl-e48" id="6fI-gW-Wgt"/>
+                <outlet property="lastButton" destination="n1l-Ul-Yxo" id="SGt-al-a6L"/>
+                <outlet property="pageImgView" destination="DL6-3r-PIz" id="bR8-BK-JXd"/>
+                <outlet property="secondButton" destination="rPJ-kF-SqH" id="z8i-My-t6v"/>
+                <outlet property="thirdButton" destination="L09-Oq-2Yy" id="Ghc-cS-giW"/>
+            </connections>
+            <point key="canvasLocation" x="-123.5" y="-516.5"/>
+        </view>
+    </objects>
+</document>

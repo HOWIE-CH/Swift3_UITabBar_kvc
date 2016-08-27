@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8dA-en-dl4" customClass="HomeTitleView" customModule="LoveFreshBeen_swift3_0" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmy-Dc-tOW">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KS-hw-PEJ">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="2p7-zj-fWx"/>
+                                <constraint firstAttribute="height" constant="20" id="Pz8-AN-aLJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="配送至" backgroundImage="grey1">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nn7-nt-BRD">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="-10" minY="0.0" maxX="10" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="65" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="人民大会堂" image="cell_arrow_down_accessory">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="nn7-nt-BRD" firstAttribute="leading" secondItem="4KS-hw-PEJ" secondAttribute="trailing" constant="5" id="1FR-ks-cWB"/>
+                        <constraint firstAttribute="height" constant="20" id="Bif-UG-dlz"/>
+                        <constraint firstAttribute="width" constant="120" id="N40-O6-EHL"/>
+                        <constraint firstItem="4KS-hw-PEJ" firstAttribute="leading" secondItem="Xmy-Dc-tOW" secondAttribute="leading" id="Ngt-SH-AZg"/>
+                        <constraint firstItem="nn7-nt-BRD" firstAttribute="centerY" secondItem="Xmy-Dc-tOW" secondAttribute="centerY" id="VdK-6H-Brh"/>
+                        <constraint firstItem="4KS-hw-PEJ" firstAttribute="centerY" secondItem="Xmy-Dc-tOW" secondAttribute="centerY" id="jCf-b0-cQN"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dg4-Gq-fac">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Fev-69-Vf6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="30" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="10"/>
+                    <state key="normal" title="扫一扫" image="icon_black_scancode">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McP-pH-vWv">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="E9P-9Q-dBv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="30" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="10"/>
+                    <state key="normal" title="搜索" image="icon_search">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Dg4-Gq-fac" secondAttribute="bottom" id="70M-fZ-xxv"/>
+                <constraint firstItem="Xmy-Dc-tOW" firstAttribute="centerX" secondItem="8dA-en-dl4" secondAttribute="centerX" id="8lG-v1-SBx"/>
+                <constraint firstItem="Dg4-Gq-fac" firstAttribute="top" secondItem="8dA-en-dl4" secondAttribute="top" id="dTd-dZ-Dp7"/>
+                <constraint firstItem="Xmy-Dc-tOW" firstAttribute="centerY" secondItem="8dA-en-dl4" secondAttribute="centerY" id="hY2-gi-xcp"/>
+                <constraint firstAttribute="trailing" secondItem="McP-pH-vWv" secondAttribute="trailing" id="k0i-aM-yzA"/>
+                <constraint firstAttribute="bottom" secondItem="McP-pH-vWv" secondAttribute="bottom" id="oVO-6f-9S6"/>
+                <constraint firstItem="McP-pH-vWv" firstAttribute="top" secondItem="8dA-en-dl4" secondAttribute="top" id="r5r-h8-vJd"/>
+                <constraint firstItem="Dg4-Gq-fac" firstAttribute="leading" secondItem="8dA-en-dl4" secondAttribute="leading" id="xzp-GS-JFD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-38" y="-662"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cell_arrow_down_accessory" width="14" height="8"/>
+        <image name="grey1" width="79" height="43"/>
+        <image name="icon_black_scancode" width="23" height="23"/>
+        <image name="icon_search" width="23" height="23"/>
+    </resources>
+</document>

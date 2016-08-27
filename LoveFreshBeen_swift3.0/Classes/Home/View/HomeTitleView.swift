@@ -11,7 +11,7 @@ import UIKit
 class HomeTitleView: UIView {
 
     class func homeTitleViewCreate() -> HomeTitleView {
-        return Bundle.main.loadNibNamed("HomeTitleView", owner: nil, options: nil)![0] as! HomeTitleView
+        return Bundle.main.loadNibNamed("HomeTitleView", owner: nil, options: nil)[0] as! HomeTitleView
     }
 
 }

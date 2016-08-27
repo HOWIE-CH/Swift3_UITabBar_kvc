@@ -33,7 +33,7 @@ class HomeTableHeaderView: UIView {
     
     
     class func homeTableHeaderCreate() -> HomeTableHeaderView {
-        return Bundle.main.loadNibNamed("HomeTableHeaderView", owner: nil, options: nil)![0] as! HomeTableHeaderView
+        return Bundle.main.loadNibNamed("HomeTableHeaderView", owner: nil, options: nil)[0] as! HomeTableHeaderView
     
     }
 

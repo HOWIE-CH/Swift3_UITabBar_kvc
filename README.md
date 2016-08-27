@@ -4,3 +4,4 @@
 ###基于系统UITabBar，利用kvc对UITabBarButton的尝试修改（模仿爱鲜蜂UITabBar上的动画效果）
 ###效果
 ![image](http://images2015.cnblogs.com/blog/922647/201607/922647-20160726175818294-211214355.gif)
+###博客园：http://www.cnblogs.com/howie-ch/p/5708433.html
